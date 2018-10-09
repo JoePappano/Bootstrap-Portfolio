@@ -1,3 +1,28 @@
-.navbar-right {
-    float: right;
+body {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: white;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+.footer {
+    text-align: center;
+}
+
+.fixed-bottom {
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    width: 175px;
 }
