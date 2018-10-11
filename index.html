@@ -12,44 +12,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Joe Pappano</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li> -->
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+    <div class="row background">
+        <div class="col-md-2">
+            <a class="navbar-brand" href="#">Joe Pappano</a>
         </div>
-    </nav>
-    <br>
+        <div class="col-md-10">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="undecorated nav-link active" href="index.html">About</a>
+                </li>
+                <!-- <li class="undecorated"> | </li> -->
+                <li class="nav-item">
+                    <a class="undecorated nav-link" href="contact.html">Contact</a>
+                </li>
+                <!-- <li class="undecorated"> | </li> -->
+                <li class="nav-item">
+                    <a class="undecorated nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
     <div class="container" style="margin: 0 auto;">
         <div class="row">
             <div class="col-md-12">
@@ -58,7 +41,7 @@
                 <div class="row">
 
                     <div class="col-md-4">
-                        <img src="images/profPic.png" alt="picOfMe" style="width: 200px; height: 200px;">
+                        <img id="picOfMe" src="images/profPic.png" alt="picOfMe" style="width: 200px; height: 200px;">
                     </div>
                     <div class="col-md-8">
                         <p>Hi! My name is Joe Pappano and welcome to my website! The page you're on is an about me
@@ -126,10 +109,16 @@
             </div>
         </div>
     </div>
-    <div class="row text-center" >
+    <br><br><br><br>
+    <div class=row>
+        <div class="col-md-12">
+            <p class="sticky-bottom footer">Copyright &copy;</p>
+        </div>
+    </div>
+    <!-- <div class="row text-center" >
         <nav class="navbar fixed-bottom navbar-light bg-light">
             <a class="navbar-brand" href="#">Copyright &copy;</a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -144,8 +133,8 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="portfolio.html">Portfolio</a>
-                    </li> -->
-                    <!-- <li class="nav-item dropdown">
+                    </li>
+                    <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
                                     Dropdown
@@ -156,15 +145,14 @@
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
-                            </li> -->
-                <!-- </ul> -->
-                <!-- <form class="form-inline my-2 my-lg-0">
+                            </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form> -->
+                        </form>
             </div>
-        </nav>
-    </div>
+    </div> -->
 </body>
-√
+
 </html>

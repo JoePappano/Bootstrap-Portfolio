@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    /* position: absolute; */
 }
 
 .container {
@@ -12,6 +13,15 @@ h1 {
 
 .footer {
     text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: #666666;
+    margin-top: 40px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    color: white;
+    /* position: relative;
+    bottom: 0; */
 }
 
 .fixed-bottom {
@@ -25,4 +35,32 @@ h1 {
     font-size: 30px;
     height: 50px;
     width: 175px;
+}
+
+.undecorated {
+    text-decoration: none;
+    color: gray;
+}
+
+.background {
+    background-color: white;
+}
+
+#picOfMe {
+    border-radius: 50%;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.imageFormatting {
+    width: 350px;
+    height: 350px;
+}
+
+.buttonFormatting {
+    margin: 10px;
 }
