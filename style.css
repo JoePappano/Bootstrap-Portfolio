@@ -57,10 +57,17 @@ h3 {
 }
 
 .imageFormatting {
-    width: 350px;
-    height: 350px;
+    max-width: 100%;
+    height: auto;
 }
 
 .buttonFormatting {
     margin: 10px;
 }
+
+/* @media screen and (max-width: 1200px) {
+    #rowFormatting {
+        width: 287px;
+    }
+} */
+    
