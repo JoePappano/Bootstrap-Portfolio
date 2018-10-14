@@ -3,12 +3,21 @@ body {
     /* position: absolute; */
 }
 
+/* .nav {
+    z-index: 3;
+} */
+
 .container {
     background-color: white;
 }
 
 h1 {
     color: #4aaaa5;
+}
+
+.navbar-brand {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer {
@@ -65,9 +74,9 @@ h3 {
     margin: 10px;
 }
 
-/* @media screen and (max-width: 1200px) {
-    #rowFormatting {
-        width: 287px;
+/* @media screen and (max-width: 767px) {
+    .nav {
+        display: block;
     }
-} */
-    
+}
+     */
